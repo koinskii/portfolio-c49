@@ -1,18 +1,24 @@
 h1{
-    color: rgb(219, 94, 22);
+    color: rgb(0, 0, 0);
     font-size: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace
 
   }
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Sofia+Sans+Condensed:wght@1&display=swap');
+  h2{
+   font-family: 'Kanit', sans-serif;
+  }
   img{
-    width: 400px;
+    width: 300px;
+    
   }
   header{
     border: 2px solid black;
     display: flex;
     justify-content: space-around;
+    width: 100%;
     align-items: center;
-    background-color: rgb(229, 184, 184);
+    background-color: rgb(120, 151, 218);
  }
  .link{
     margin-left: 20px;
@@ -22,4 +28,53 @@ h1{
     background-color: aliceblue;
     border-radius: 40px;
     box-shadow: 3.14px 3.14px 4px;
+ }
+ body{
+   background-color: rgb(229, 184, 184);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 32px;
+
+ }
+ p{
+   font-family: 'Sofia Sans Condensed', sans-serif;
+   text-align: center;
+ }
+ main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;   
+   width: 1000px;
+  
+ }
+ .jogos{
+  display: flex;
+  width: 950px;
+  flex-wrap: wrap;
+  gap: 32px;
+
+ }
+ .jogo{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 8px;
+   width: 400px;
+ }
+ footer{
+   display: flex;
+   justify-content: end;
+   justify-content: end;
+   align-items: end;
+   padding-right: 4px;
+ }
+ .git{
+   width: 50px;
+   border-radius: 90px;
+   border-image: 20px;
+
  }
