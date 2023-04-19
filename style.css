@@ -8,10 +8,21 @@ h1{
   h2{
    font-family: 'Kanit', sans-serif;
   }
+
   img{
     width: 300px;
     
   }
+  #coelho{
+    height: 390px;
+  }
+  #barco{
+ width: 400px;
+  }
+  #corrida{
+    width: 400px;
+  }
+  
   header{
     border: 2px solid black;
     display: flex;
@@ -48,13 +59,14 @@ h1{
    justify-content: center;
    align-items: center;   
    width: 1000px;
-  
+  background-color: rgb(247, 117, 117);
  }
  .jogos{
   display: flex;
-  width: 950px;
+  width: 1000px;
   flex-wrap: wrap;
   gap: 32px;
+  justify-content: space-evenly;
 
  }
  .jogo{
@@ -77,4 +89,22 @@ h1{
    border-radius: 90px;
    border-image: 20px;
 
+ }
+
+
+ .jogoimg:hover{
+
+scale: 1.1;
+ }
+
+ div:hover :not(:hover){
+  opacity: 0.7;
+ }
+
+ a:visited{
+  color: rgb(12, 187, 236);
+ }
+
+ a{
+  text-decoration: none;
  }
